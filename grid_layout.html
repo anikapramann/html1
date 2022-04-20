@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>grid_layout</title>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+  .grid-container {
+    display:grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color:#2196F3;
+    padding: 10px;
+  }
+  .grid-container > div {
+    Background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding:20px 0;
+    font-size:30px;
+  }
+  @media only screen and (max-width: 600px) {
+body {
+  background-color: blue;
+}
+
+  }
+
+  
+  
+    </style>
+</head>
+<body>
+
+<h1>Grid Layout</h1>
+
+<p>This grid layout contains six columns and three rows:</p>
+
+<div class="grid-container">
+  <div class="item1">My cat Nala</div>
+  <div class="item2"> <img src="img/Nala_the_cat.png" alt="Nala" style=" width: 250px;" class="center"></div>
+  <div class="item3">She is the cutest thing ever</div>  
+  <div class="item4">She likes to head butt if she likes you</div>
+  <div class="item5">She is the best cat in the whole world </div>
+</div>
+</body>
+</html>

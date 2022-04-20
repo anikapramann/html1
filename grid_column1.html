@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 120px auto 200px;
+  gap: 10px;
+  background-color: #21f372;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: blue;
+}
+}
+</style>
+</head>
+<body>
+
+<h1>The grid-template-columns Property</h1>
+
+<p>Use the <em>grid-template-columns</em> property to specify the size of each column.</p>
+
+<div class="grid-container">
+  <div>This</div>
+  <div>Is</div>
+  <div>My</div>  
+  <div>Brother</div>
+  <div>Levi</div>
+  <div>He</div>  
+  <div>Is</div>
+  <div>Great</div>
+</div>
+<img src="img/Levi.png" alt="levi" style=" width: 250px;" class="center"></div>
+</body>
+</html>

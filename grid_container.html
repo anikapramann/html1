@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: blue;
+}
+}
+</style>
+</head>
+<body>
+
+<h1>The grid-template-columns Property</h1>
+
+<p>You can use the <em>grid-template-columns</em> property to specify the number of columns in your grid layout.</p>
+
+<div class="grid-container">
+  <div>My dog Zoey</div>
+  <div>She is 13 years old</div>
+  <div>She's had 2 litter of puppies</div>  
+  <div>She loves duck hunting </div>
+  <div>She is a pure breed black lab</div>
+  <div>She had had whote on her fur since shes been 2</div>  
+  <div>She has never barked in her life</div>
+  <div>She sleeps a lot</div>
+</div>
+<img src="img/zoey.png" alt="zoey" style=" width: 200px;" class="center">
+</body>
+</html>
+
+
+

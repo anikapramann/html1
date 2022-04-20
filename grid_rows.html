@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> The grid-template-rows Property </title>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  gap: 10px;
+  background-color: #e9a949;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(245, 203, 156, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: blue;
+}
+}
+</style>
+</head>
+<body>
+
+<h1>The grid-template-rows Property</h1>
+
+<div class="grid-container">
+  <div>Her name is pebbles</div>
+  <div>she is very annoying and has a big personality</div>
+  <div>She only likes me </div>  
+  <div>The softest cat ever</div>
+  <div>My family doesn't like her</div>
+  <div>She got hit by a car </div>  
+</div>
+<img src="img/pebbles1.png" alt="pebbles" style=" width: 250px;" class="center">
+<img src="img/pebbles2.png" alt="pebbles" style=" width: 250px;" class="center">
+<img src="img/pebbles3.png" alt="pebbles" style=" width: 250px;" class="center">
+<p>Use the <em>grid-template-rows</em> property to specify the size (height) of each row.</p>
+
+</body>
+</html>
+
+
+

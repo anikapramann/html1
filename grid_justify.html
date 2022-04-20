@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 80px 80px 80px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #fabee1;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(206, 165, 245, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: blue;
+}
+}
+
+</style>
+</head>
+<body>
+
+<h1>The justify-content Property</h1>
+
+<p>Use the <em>justify-content</em> property to align the grid inside the container.</p>
+
+<p>The value "space-evenly" will give the columns equal amount of space between, and around them:</p>
+
+<div class="grid-container">
+  <div>Hi</div>
+  <div>How</div>
+  <div>Are</div>  
+  <div>You</div>
+  <div>Doing</div>
+  <div>Today</div>  
+</div>
+
+</body>
+</html>
+
+
+
